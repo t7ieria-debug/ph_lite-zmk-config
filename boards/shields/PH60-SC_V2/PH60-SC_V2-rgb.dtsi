@@ -8,14 +8,6 @@
 #include <dt-bindings/zmk/rgb_colors.h>
 
 / {
-    rgb_colors {
-        qian_lan = <0xA5D5D0>;
-        niu_you_lv = <0xA6B255>;
-        cao_lv = <0x4F7049>;
-        mei_hong = <0xB05D5E>;
-        xiang_bin_jin = <0xFBB841>;
-        bai_se = <0xFFFFFF>;
-    };
 
     rgb_transform: rgb_transform {
         compatible = "zmk,rgb-matrix-transform";
@@ -103,33 +95,33 @@
         default_rgb {
             layer-id = <LAYER_Base>;
             bindings = <
-&ug mei_hong &ug cao_lv &ug cao_lv &ug cao_lv &ug cao_lv &ug cao_lv &ug cao_lv &ug cao_lv &ug cao_lv &ug cao_lv &ug cao_lv &ug cao_lv &ug cao_lv &ug qian_lan
-&ug qian_lan &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug cao_lv &ug cao_lv &ug cao_lv
-&ug qian_lan &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug cao_lv &ug cao_lv &ug mei_hong
-&ug qian_lan &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug cao_lv &ug qian_lan
-&ug qian_lan &ug qian_lan &ug qian_lan &ug mei_hong &ug qian_lan &ug qian_lan &ug qian_lan &ug qian_lan
+&ug 0xB05D5E &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0xA5D5D0
+&ug 0xA5D5D0 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049
+&ug 0xA5D5D0 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug 0x4F7049 &ug 0xB05D5E
+&ug 0xA5D5D0 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug 0xA5D5D0
+&ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xB05D5E &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0
             >;
         };
 
         function_rgb {
             layer-id = <LAYER_Function>;
             bindings = <
-&ug cao_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug cao_lv
-&ug ___       &ug ___     &ug mei_hong &ug ___     &ug xiang_bin_jin &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug cao_lv &ug cao_lv &ug cao_lv &ug xiang_bin_jin
-&ug qian_lan &ug mei_hong &ug mei_hong &ug mei_hong &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug cao_lv &ug cao_lv           &ug ___
-&ug qian_lan               &ug bai_se &ug bai_se &ug bai_se &ug ___     &ug bai_se &ug ___     &ug ___     &ug ___     &ug ___     &ug ___                 &ug ___
+&ug 0x4F7049 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049
+&ug ___       &ug ___     &ug 0xB05D5E &ug ___     &ug 0xFBB841 &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0xFBB841
+&ug 0xA5D5D0 &ug 0xB05D5E &ug 0xB05D5E &ug 0xB05D5E &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug 0x4F7049 &ug 0x4F7049           &ug ___
+&ug 0xA5D5D0               &ug 0xFFFFFF &ug 0xFFFFFF &ug 0xFFFFFF &ug ___     &ug 0xFFFFFF &ug ___     &ug ___     &ug ___     &ug ___     &ug ___                 &ug ___
 &ug ___       &ug ___     &ug ___                       &ug ___                       &ug ___     &ug ___     &ug ___                 &ug ___
             >;
         };
 
         numpad_rgb {
-            layer-id = <LAYER_Numpad>;
+            layer-id = <LAYER_RGB>;
             bindings = <
-&ug xiang_bin_jin  &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug cao_lv &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___     &ug mei_hong
-&ug ___       &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug cao_lv &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___     &ug ___
-&ug xiang_bin_jin  &ug niu_you_lv &ug niu_you_lv &ug niu_you_lv &ug cao_lv &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___               &ug ___
-&ug ___                    &ug niu_you_lv &ug qian_lan &ug qian_lan &ug cao_lv &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___               &ug qian_lan
-&ug ___       &ug ___     &ug ___                       &ug mei_hong                       &ug qian_lan &ug qian_lan &ug qian_lan               &ug ___
+&ug 0xFBB841  &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___     &ug 0xB05D5E
+&ug ___       &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___     &ug ___
+&ug 0xFBB841  &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___               &ug ___
+&ug ___                    &ug 0xA6B255 &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0x4F7049 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___               &ug 0xA5D5D0
+&ug ___       &ug ___     &ug ___                       &ug 0xB05D5E                       &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0               &ug ___
             >;
         };
 
