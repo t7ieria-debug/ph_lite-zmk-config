@@ -95,20 +95,20 @@
         default_rgb {
             layer-id = <LAYER_Base>;
             bindings = <
-&ug 0xB05D5E &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0xA5D5D0
-&ug 0xA5D5D0 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049
-&ug 0xA5D5D0 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug 0x4F7049 &ug 0xB05D5E
-&ug 0xA5D5D0 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug 0xA5D5D0
-&ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xB05D5E &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0
+&ug 0xA145 &ug 0x0200 &ug 0x0200 &ug 0x0200 &ug 0x0200 &ug 0x0200 &ug 0x0200 &ug 0x0200 &ug 0x0200 &ug 0x0200 &ug 0x0200 &ug 0x0200 &ug 0x0200 &ug 0xA5D5D0
+&ug 0xA5D5D0 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x0200 &ug 0x0200 &ug 0x0200
+&ug 0xA5D5D0 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x0200 &ug 0x0200 &ug 0xA145
+&ug 0xA5D5D0 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x0200 &ug 0xA5D5D0
+&ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA145 &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0
             >;
         };
 
         function_rgb {
             layer-id = <LAYER_Function>;
             bindings = <
-&ug 0x4F7049 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049
-&ug ___       &ug ___     &ug 0xB05D5E &ug ___     &ug 0xFBB841 &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0xFBB841
-&ug 0xA5D5D0 &ug 0xB05D5E &ug 0xB05D5E &ug 0xB05D5E &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug 0x4F7049 &ug 0x4F7049           &ug ___
+&ug 0x0200 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x0200
+&ug ___       &ug ___     &ug 0xA145 &ug ___     &ug 0xFBB841 &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug 0x0200 &ug 0x0200 &ug 0x0200 &ug 0xFBB841
+&ug 0xA5D5D0 &ug 0xA145 &ug 0xA145 &ug 0xA145 &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug 0x0200 &ug 0x0200           &ug ___
 &ug 0xA5D5D0               &ug 0xFFFFFF &ug 0xFFFFFF &ug 0xFFFFFF &ug ___     &ug 0xFFFFFF &ug ___     &ug ___     &ug ___     &ug ___     &ug ___                 &ug ___
 &ug ___       &ug ___     &ug ___                       &ug ___                       &ug ___     &ug ___     &ug ___                 &ug ___
             >;
@@ -117,11 +117,11 @@
         numpad_rgb {
             layer-id = <LAYER_RGB>;
             bindings = <
-&ug 0xFBB841  &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___     &ug 0xB05D5E
-&ug ___       &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___     &ug ___
-&ug 0xFBB841  &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___               &ug ___
-&ug ___                    &ug 0xA6B255 &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0x4F7049 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___               &ug 0xA5D5D0
-&ug ___       &ug ___     &ug ___                       &ug 0xB05D5E                       &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0               &ug ___
+&ug 0xFBB841  &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x0200 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___     &ug 0xA145
+&ug ___       &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x0200 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___     &ug ___
+&ug 0xFBB841  &ug 0x73E5 &ug 0x73E5 &ug 0x73E5 &ug 0x0200 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___               &ug ___
+&ug ___                    &ug 0x73E5 &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0x0200 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___               &ug 0xA5D5D0
+&ug ___       &ug ___     &ug ___                       &ug 0xA145                       &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0               &ug ___
             >;
         };
 
