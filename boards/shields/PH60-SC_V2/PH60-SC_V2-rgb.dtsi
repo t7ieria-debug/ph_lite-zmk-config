@@ -94,45 +94,35 @@
         default_rgb {
             layer-id = <LAYER_Base>;
             bindings = <
-&ug ___       &ug ___ &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___       &ug ___
-&ug ___       &ug ___ &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___       &ug ___
-&ug_cl ___ GREEN      &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___                  &ug ___
-&ug ___                &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___    &ug ___               &ug ___
-&ug ___       &ug ___ &ug ___                          &ug ___                          &ug ___    &ug ___    &ug ___               &ug ___
+&ug 0xB05D5E &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0xA5D5D0
+&ug 0xA5D5D0 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049
+&ug 0xA5D5D0 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug 0x4F7049 &ug 0xB05D5E
+&ug 0xA5D5D0 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug 0xA5D5D0
+&ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xB05D5E &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0
             >;
         };
 
         function_rgb {
             layer-id = <LAYER_Function>;
             bindings = <
-&ug ORANGE    &ug ORANGE &ug ORANGE &ug ORANGE &ug ORANGE &ug ORANGE &ug ORANGE &ug ORANGE &ug ORANGE &ug ORANGE &ug ORANGE &ug ORANGE &ug ORANGE &ug RED
-&ug BLACK     &ug BLACK  &ug GREEN  &ug BLACK  &ug RED    &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLUE   &ug BLUE   &ug BLUE   &ug GOLD
-&ug BLACK     &ug GREEN  &ug GREEN  &ug GREEN  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLUE   &ug BLUE              &ug BLACK
-&ug BLACK                 &ug PURPLE &ug GOLD   &ug BLACK  &ug BLACK  &ug BLUE   &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK               &ug BLACK
-&ug BLACK     &ug BLACK  &ug BLACK                         &ug BLACK                         &ug BLACK  &ug BLACK  &ug BLACK               &ug BLACK
+&ug 0x4F7049 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049
+&ug ___       &ug ___     &ug 0xB05D5E &ug ___     &ug 0xFBB841 &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug 0x4F7049 &ug 0x4F7049 &ug 0x4F7049 &ug 0xFBB841
+&ug 0xA5D5D0 &ug 0xB05D5E &ug 0xB05D5E &ug 0xB05D5E &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug 0x4F7049 &ug 0x4F7049           &ug ___
+&ug 0xA5D5D0               &ug 0xFFFFFF &ug 0xFFFFFF &ug 0xFFFFFF &ug ___     &ug 0xFFFFFF &ug ___     &ug ___     &ug ___     &ug ___     &ug ___                 &ug ___
+&ug ___       &ug ___     &ug ___                       &ug ___                       &ug ___     &ug ___     &ug ___                 &ug ___
             >;
         };
 
-        bluetooth_rgb {
-            layer-id = <LAYER_Bluetooth>;
+        numpad_rgb {
+            layer-id = <LAYER_Numpad>;
             bindings = <
-&ug BLACK     &ug BLUE  &ug BLUE  &ug BLUE  &ug BLUE  &ug BLUE  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK     &ug RED
-&ug GREEN     &ug BLACK &ug BLACK &ug BLACK &ug RED   &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK     &ug BLACK
-&ug BLACK     &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK               &ug ORANGE
-&ug BLACK                 &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK               &ug BLACK
-&ug BLACK     &ug BLACK &ug BLACK                      &ug BLACK                      &ug BLACK &ug BLACK &ug BLACK               &ug BLACK
+&ug 0xFBB841  &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___     &ug 0xB05D5E
+&ug ___       &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___     &ug ___
+&ug 0xFBB841  &ug 0xA6B255 &ug 0xA6B255 &ug 0xA6B255 &ug 0x4F7049 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___               &ug ___
+&ug ___                    &ug 0xA6B255 &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0x4F7049 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___               &ug 0xA5D5D0
+&ug ___       &ug ___     &ug ___                       &ug 0xB05D5E                       &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0               &ug ___
             >;
         };
 
-        rgb_rgb {
-            layer-id = <LAYER_RGB>;
-            bindings = <
-&ug BLACK     &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK  &ug BLACK     &ug BLACK
-&ug BLACK     &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK  &ug PURPLE &ug ORANGE &ug PURPLE &ug ORANGE &ug GREEN  &ug GREEN     &ug BLACK
-&ug BLACK     &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK  &ug PURPLE &ug ORANGE &ug PURPLE &ug ORANGE &ug BLACK               &ug BLACK
-&ug BLACK                 &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK               &ug BLACK
-&ug BLACK     &ug BLACK &ug BLACK                      &ug BLACK                       &ug BLACK &ug BLACK &ug BLACK               &ug BLACK
-            >;
-        };
     };
 };
