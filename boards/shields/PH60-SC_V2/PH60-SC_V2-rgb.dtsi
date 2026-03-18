@@ -115,21 +115,21 @@
             layer-id = <LAYER_Function>;
             bindings = <
 &ug 0x0a5526 &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526
-&ug black       &ug black     &ug 0xea005e &ug black     &ug 0xFBB841 &ug black     &ug black     &ug black     &ug black     &ug black     &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
-&ug 0xA5D5D0 &ug 0xea005e &ug 0xea005e &ug 0xea005e &ug black     &ug black     &ug black     &ug black     &ug black     &ug black     &ug 0x0a5526 &ug 0x0a5526           &ug black
-&ug 0xA5D5D0               &ug 0xFFFFFF &ug 0xFFFFFF &ug 0xFFFFFF &ug black     &ug 0xFFFFFF &ug black     &ug black     &ug black     &ug black     &ug black                 &ug black
-&ug black       &ug black     &ug black                       &ug black                       &ug black     &ug black     &ug black                 &ug black
+&ug 0x000000       &ug 0x000000     &ug 0xea005e &ug 0x000000     &ug 0xFBB841 &ug 0x000000     &ug 0x000000     &ug 0x000000     &ug 0x000000     &ug 0x000000     &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
+&ug 0xA5D5D0 &ug 0xea005e &ug 0xea005e &ug 0xea005e &ug 0x000000     &ug 0x000000     &ug 0x000000     &ug 0x000000     &ug 0x000000     &ug 0x000000     &ug 0x0a5526 &ug 0x0a5526           &ug 0x000000
+&ug 0xA5D5D0               &ug 0xFFFFFF &ug 0xFFFFFF &ug 0xFFFFFF &ug 0x000000     &ug 0xFFFFFF &ug 0x000000     &ug 0x000000     &ug 0x000000     &ug 0x000000     &ug 0x000000                 &ug 0x000000
+&ug 0x000000       &ug 0x000000     &ug 0x000000                       &ug 0x000000                       &ug 0x000000     &ug 0x000000     &ug 0x000000                 &ug 0x000000
             >;
         };
 
         numpad_rgb {
             layer-id = <LAYER_RGB>;
             bindings = <
-&ug 0xFBB841  &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug black &ug black &ug black &ug black &ug black &ug black &ug black &ug black     &ug 0xea005e
-&ug black       &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug black &ug black &ug black &ug black &ug black &ug black &ug black &ug black     &ug black
-&ug 0xFBB841  &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug black &ug black &ug black &ug black &ug black &ug black &ug black               &ug black
-&ug black                    &ug 0x737f2f &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0x0a5526 &ug black &ug black &ug black &ug black &ug black &ug black               &ug 0xA5D5D0
-&ug black       &ug black     &ug black                       &ug 0xea005e                       &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0               &ug black
+&ug 0xFBB841  &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000     &ug 0xea005e
+&ug 0x000000       &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000     &ug 0x000000
+&ug 0xFBB841  &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000               &ug 0x000000
+&ug 0x000000                    &ug 0x737f2f &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0x0a5526 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000 &ug 0x000000               &ug 0xA5D5D0
+&ug 0x000000       &ug 0x000000     &ug 0x000000                       &ug 0xea005e                       &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0               &ug 0x000000
             >;
         };
 
