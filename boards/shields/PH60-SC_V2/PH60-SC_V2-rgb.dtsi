@@ -103,11 +103,11 @@
         default_rgb {
             layer-id = <LAYER_Base>;
             bindings = <
-&ug 0xd75a72 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
+0xAF2F67 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
 &ug 0xFBB841 &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526
-&ug 0xd75a72 &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x0a5526 &ug 0xd75a72
+0xAF2F67 &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x0a5526 0xAF2F67
 &ug 0xFBB841 &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
-&ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841 &ug 0xd75a72 &ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841
+&ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841 0xAF2F67 &ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841
             >;
         };
 
@@ -115,8 +115,8 @@
             layer-id = <LAYER_Function>;
             bindings = <
 &ug 0x0a5526 &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526
-&ug BLACK       &ug BLACK     &ug 0xd75a72 &ug BLACK     &ug 0xFBB841 &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
-&ug 0xA5D5D0 &ug 0xd75a72 &ug 0xd75a72 &ug 0xd75a72 &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug 0x0a5526 &ug 0x0a5526           &ug BLACK
+&ug BLACK       &ug BLACK     0xAF2F67 &ug BLACK     &ug 0xFBB841 &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
+&ug 0xA5D5D0 0xAF2F67 0xAF2F67 0xAF2F67 &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug 0x0a5526 &ug 0x0a5526           &ug BLACK
 &ug 0xA5D5D0               &ug 0xFFFFFF &ug 0xFFFFFF &ug 0xFFFFFF &ug BLACK     &ug 0xFFFFFF &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK                 &ug BLACK
 &ug BLACK       &ug BLACK     &ug BLACK                       &ug BLACK                       &ug BLACK     &ug BLACK     &ug BLACK                 &ug BLACK
             >;
@@ -125,11 +125,11 @@
         numpad_rgb {
             layer-id = <LAYER_RGB>;
             bindings = <
-&ug 0xFBB841  &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK     &ug 0xd75a72
+&ug 0xFBB841  &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK     0xAF2F67
 &ug BLACK       &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK     &ug BLACK
 &ug 0xFBB841  &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK               &ug BLACK
 &ug BLACK                    &ug 0x737f2f &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0x0a5526 &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK               &ug 0xA5D5D0
-&ug BLACK       &ug BLACK     &ug BLACK                       &ug 0xd75a72                       &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0               &ug BLACK
+&ug BLACK       &ug BLACK     &ug BLACK                       0xAF2F67                       &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0               &ug BLACK
             >;
         };
 
