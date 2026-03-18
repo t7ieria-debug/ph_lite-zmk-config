@@ -11,7 +11,7 @@
     /* 颜色映射表：
      * 0xFBB841 (香槟金) = 0xFBB841
      * 0x737f2f (牛油果绿) = 0x737f2f
-     * 0xea005e (玫红朱红) = 0xea005e
+     * 0xd75a72 (玫红朱红) = 0xd75a72
      * 0x0a5526 (深绿) = 0x0a5526
      * 0xA5D5D0 (浅蓝) = 0xA5D5D0
      * 0xFFFFFF (白色) = 0xFFFFFF
@@ -103,11 +103,11 @@
         default_rgb {
             layer-id = <LAYER_Base>;
             bindings = <
-&ug 0xea005e &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
+&ug 0xd75a72 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
 &ug 0xFBB841 &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526
-&ug 0xea005e &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x0a5526 &ug 0xea005e
+&ug 0xd75a72 &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x0a5526 &ug 0xd75a72
 &ug 0xFBB841 &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
-&ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841 &ug 0xea005e &ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841
+&ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841 &ug 0xd75a72 &ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841
             >;
         };
 
@@ -115,8 +115,8 @@
             layer-id = <LAYER_Function>;
             bindings = <
 &ug 0x0a5526 &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526
-&ug BLACK       &ug BLACK     &ug 0xea005e &ug BLACK     &ug 0xFBB841 &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
-&ug 0xA5D5D0 &ug 0xea005e &ug 0xea005e &ug 0xea005e &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug 0x0a5526 &ug 0x0a5526           &ug BLACK
+&ug BLACK       &ug BLACK     &ug 0xd75a72 &ug BLACK     &ug 0xFBB841 &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
+&ug 0xA5D5D0 &ug 0xd75a72 &ug 0xd75a72 &ug 0xd75a72 &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug 0x0a5526 &ug 0x0a5526           &ug BLACK
 &ug 0xA5D5D0               &ug 0xFFFFFF &ug 0xFFFFFF &ug 0xFFFFFF &ug BLACK     &ug 0xFFFFFF &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK     &ug BLACK                 &ug BLACK
 &ug BLACK       &ug BLACK     &ug BLACK                       &ug BLACK                       &ug BLACK     &ug BLACK     &ug BLACK                 &ug BLACK
             >;
@@ -125,11 +125,11 @@
         numpad_rgb {
             layer-id = <LAYER_RGB>;
             bindings = <
-&ug 0xFBB841  &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK     &ug 0xea005e
+&ug 0xFBB841  &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK     &ug 0xd75a72
 &ug BLACK       &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK     &ug BLACK
 &ug 0xFBB841  &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK               &ug BLACK
 &ug BLACK                    &ug 0x737f2f &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0x0a5526 &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK &ug BLACK               &ug 0xA5D5D0
-&ug BLACK       &ug BLACK     &ug BLACK                       &ug 0xea005e                       &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0               &ug BLACK
+&ug BLACK       &ug BLACK     &ug BLACK                       &ug 0xd75a72                       &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0               &ug BLACK
             >;
         };
 
