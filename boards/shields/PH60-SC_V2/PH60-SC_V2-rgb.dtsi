@@ -11,7 +11,7 @@
     /* 颜色映射表：
      * 0xFBB841 (香槟金) = 0xFBB841
      * 0x737f2f (牛油果绿) = 0x737f2f
-     * 0xAF2F67 (玫红朱红) = 0xAF2F67
+     * 0xD62F4A (玫红朱红) = 0xD62F4A
      * 0x0a5526 (深绿) = 0x0a5526
      * 0xA5D5D0 (浅蓝) = 0xA5D5D0
      * 0xFFFFFF (白色) = 0xFFFFFF
@@ -103,11 +103,11 @@
         default_rgb {
             layer-id = <LAYER_Base>;
             bindings = <
-&ug 0xAF2F67 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
+&ug 0xD62F4A &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
 &ug 0xFBB841 &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526
-&ug 0xAF2F67 &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x0a5526 &ug 0xAF2F67
+&ug 0xD62F4A &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x0a5526 &ug 0xD62F4A
 &ug 0xFBB841 &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
-&ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841 &ug 0xAF2F67 &ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841
+&ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841 &ug 0xD62F4A &ug 0xFBB841 &ug 0xFBB841 &ug 0xFBB841
             >;
         };
 
@@ -115,8 +115,8 @@
             layer-id = <LAYER_Function>;
             bindings = <
 &ug 0x0a5526 &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526
-&ug ___       &ug ___     &ug 0xAF2F67 &ug ___     &ug 0xFBB841 &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
-&ug 0xA5D5D0 &ug 0xAF2F67 &ug 0xAF2F67 &ug 0xAF2F67 &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug 0x0a5526 &ug 0x0a5526           &ug ___
+&ug ___       &ug ___     &ug 0xD62F4A &ug ___     &ug 0xFBB841 &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug 0x0a5526 &ug 0x0a5526 &ug 0x0a5526 &ug 0xFBB841
+&ug 0xA5D5D0 &ug 0xD62F4A &ug 0xD62F4A &ug 0xD62F4A &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug ___     &ug 0x0a5526 &ug 0x0a5526           &ug ___
 &ug 0xA5D5D0               &ug 0xFFFFFF &ug 0xFFFFFF &ug 0xFFFFFF &ug ___     &ug 0xFFFFFF &ug ___     &ug ___     &ug ___     &ug ___     &ug ___                 &ug ___
 &ug ___       &ug ___     &ug ___                       &ug ___                       &ug ___     &ug ___     &ug ___                 &ug ___
             >;
@@ -125,11 +125,11 @@
         numpad_rgb {
             layer-id = <LAYER_RGB>;
             bindings = <
-&ug 0xFBB841  &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___     &ug 0xAF2F67
+&ug 0xFBB841  &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___     &ug 0xD62F4A
 &ug ___       &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___     &ug ___
 &ug 0xFBB841  &ug 0x737f2f &ug 0x737f2f &ug 0x737f2f &ug 0x0a5526 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___               &ug ___
 &ug ___                    &ug 0x737f2f &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0x0a5526 &ug ___ &ug ___ &ug ___ &ug ___ &ug ___ &ug ___               &ug 0xA5D5D0
-&ug ___       &ug ___     &ug ___                       &ug 0xAF2F67                       &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0               &ug ___
+&ug ___       &ug ___     &ug ___                       &ug 0xD62F4A                       &ug 0xA5D5D0 &ug 0xA5D5D0 &ug 0xA5D5D0               &ug ___
             >;
         };
 
